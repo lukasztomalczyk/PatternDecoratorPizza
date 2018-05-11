@@ -1,6 +1,6 @@
 ﻿namespace PatternDecoratorPizza.Modules.Types
 {
-    internal class MediumPizzaType : PizzaBase
+    public class MediumPizzaType : PizzaBase
     {
         public override double CalculatePrice()
         {
@@ -9,7 +9,7 @@
 
         public override string GetTypeOfPizza()
         {
-            return "This is medium type of pizza";
+            return "Medium";
         }
     }
 }

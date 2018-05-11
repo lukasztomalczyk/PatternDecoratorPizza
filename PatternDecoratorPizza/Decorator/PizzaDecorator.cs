@@ -1,6 +1,6 @@
 ﻿namespace PatternDecoratorPizza.Modules.Decorator
 {
-    internal class PizzaDecorator : PizzaBase
+    public class PizzaDecorator : PizzaBase
     {
         private readonly PizzaBase _pizzaBaseImplementation;
 

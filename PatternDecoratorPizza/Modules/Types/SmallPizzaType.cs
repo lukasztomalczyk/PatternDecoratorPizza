@@ -1,6 +1,6 @@
 ﻿namespace PatternDecoratorPizza.Modules.Types
 {
-    internal class SmallPizzaType : PizzaBase
+    public class SmallPizzaType : PizzaBase
     {
         public override double CalculatePrice()
         {
@@ -9,7 +9,7 @@
 
         public override string GetTypeOfPizza()
         {
-            return "This is small type of pizza.";
+            return "Small";
         }
     }
 }
