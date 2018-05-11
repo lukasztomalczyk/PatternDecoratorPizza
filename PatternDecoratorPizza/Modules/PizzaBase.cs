@@ -1,8 +1,8 @@
 ﻿namespace PatternDecoratorPizza.Modules
 {
-    internal abstract class Pizza
+    internal abstract class PizzaBase
     {
         public abstract double CalculatePrice();
-        public abstract string GetNameOfPizza();
+        public abstract string GetTypeOfPizza();
     }
 }
